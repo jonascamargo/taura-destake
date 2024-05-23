@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'brightgrotesk';
+    src: url('../fonts/brightgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/brightgrotesk-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.page-wrapper,
+.dark-layout .sticky-header {
+    background-color: #000;
+}
+
+.main-footer {
+    background-color: inherit;
+}
+
+.main-footer .widget-title:before {
+    display: none;
+}
+
+.about-section-two .content-column .sec-title-two {
+    border-bottom: none;
+    padding-bottom: inherit;
+}
+
+
+.banner-section .title {
+    font-size: 72px;
+    line-height: 120% !important;
+}
+
+p, .text,
+.testimonial-block .text,
+.user-links li {
+    color: #fff;
+}
+
+
+.testimonial-block .text {
+    position: relative;
+}
+.testimonial-block .text:after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

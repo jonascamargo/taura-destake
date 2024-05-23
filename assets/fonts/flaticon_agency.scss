@@ -1,0 +1,133 @@
+$flaticon_agency-font: "flaticon_agency";
+
+@font-face {
+    font-family: $flaticon_agency-font;
+    src: url("./flaticon_agency.ttf?e690f3be7752a58c45a1cb585575b786") format("truetype"),
+url("./flaticon_agency.woff?e690f3be7752a58c45a1cb585575b786") format("woff"),
+url("./flaticon_agency.woff2?e690f3be7752a58c45a1cb585575b786") format("woff2"),
+url("./flaticon_agency.eot?e690f3be7752a58c45a1cb585575b786#iefix") format("embedded-opentype"),
+url("./flaticon_agency.svg?e690f3be7752a58c45a1cb585575b786#flaticon_agency") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_agency !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_agency-map: (
+    "internet": "\f101",
+    "box": "\f102",
+    "pen-tool": "\f103",
+    "pack": "\f104",
+    "up-arrow": "\f105",
+    "diagonal-arrow": "\f106",
+    "right-arrow": "\f107",
+    "ux-design": "\f108",
+    "box-1": "\f109",
+    "in-stock": "\f10a",
+    "product-promotion": "\f10b",
+    "globe": "\f10c",
+    "layer": "\f10d",
+    "layer-1": "\f10e",
+    "supply-chain": "\f10f",
+    "open-box": "\f110",
+    "mobile-application": "\f111",
+    "next": "\f112",
+    "down-arrow": "\f113",
+    "search": "\f114",
+    "magnifying-glass": "\f115",
+    "design": "\f116",
+    "touch": "\f117",
+    "technical-support": "\f118",
+    "personal-development": "\f119",
+    "networking": "\f11a",
+    "graphic-design": "\f11b",
+);
+
+.flaticon-internet:before {
+    content: map-get($flaticon_agency-map, "internet");
+}
+.flaticon-box:before {
+    content: map-get($flaticon_agency-map, "box");
+}
+.flaticon-pen-tool:before {
+    content: map-get($flaticon_agency-map, "pen-tool");
+}
+.flaticon-pack:before {
+    content: map-get($flaticon_agency-map, "pack");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon_agency-map, "up-arrow");
+}
+.flaticon-diagonal-arrow:before {
+    content: map-get($flaticon_agency-map, "diagonal-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_agency-map, "right-arrow");
+}
+.flaticon-ux-design:before {
+    content: map-get($flaticon_agency-map, "ux-design");
+}
+.flaticon-box-1:before {
+    content: map-get($flaticon_agency-map, "box-1");
+}
+.flaticon-in-stock:before {
+    content: map-get($flaticon_agency-map, "in-stock");
+}
+.flaticon-product-promotion:before {
+    content: map-get($flaticon_agency-map, "product-promotion");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon_agency-map, "globe");
+}
+.flaticon-layer:before {
+    content: map-get($flaticon_agency-map, "layer");
+}
+.flaticon-layer-1:before {
+    content: map-get($flaticon_agency-map, "layer-1");
+}
+.flaticon-supply-chain:before {
+    content: map-get($flaticon_agency-map, "supply-chain");
+}
+.flaticon-open-box:before {
+    content: map-get($flaticon_agency-map, "open-box");
+}
+.flaticon-mobile-application:before {
+    content: map-get($flaticon_agency-map, "mobile-application");
+}
+.flaticon-next:before {
+    content: map-get($flaticon_agency-map, "next");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon_agency-map, "down-arrow");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_agency-map, "search");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon_agency-map, "magnifying-glass");
+}
+.flaticon-design:before {
+    content: map-get($flaticon_agency-map, "design");
+}
+.flaticon-touch:before {
+    content: map-get($flaticon_agency-map, "touch");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon_agency-map, "technical-support");
+}
+.flaticon-personal-development:before {
+    content: map-get($flaticon_agency-map, "personal-development");
+}
+.flaticon-networking:before {
+    content: map-get($flaticon_agency-map, "networking");
+}
+.flaticon-graphic-design:before {
+    content: map-get($flaticon_agency-map, "graphic-design");
+}
