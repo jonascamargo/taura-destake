@@ -6,6 +6,31 @@
     font-style: normal;
 }
 
+:root {
+    --theme-color2: #e5007d;
+}
+
+
+
+
+.banner-section .outer-box.pageCover {
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+}
+
+.cover-page {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form .form-group input:not(:focus),
+.contact-form .form-group textarea:not(:focus),
+.contact-form .form-group select:not(:focus) {
+    border-color: #fff;
+}
 
 
 .page-wrapper,
@@ -34,10 +59,23 @@
 
 p, .text,
 .testimonial-block .text,
-.user-links li {
+.user-links li,
+.sec-title-three .sub-title {
     color: #fff;
 }
 
+.sec-title-three .sub-title:before {
+    border-color: #fff;
+    opacity: 1;
+}
+
+.contact-info-list li .icon {
+    color: #fff;
+}
+
+.sec-title .sub-title {
+    margin-bottom: 5px;
+}
 
 .testimonial-block .text {
     position: relative;
@@ -51,4 +89,31 @@ p, .text,
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.social-icon-two li a {
+    font-size: 30px;
+}
+
+
+.team-block .info-box {
+    padding: 20px 0 0;
+}
+
+.team-block .info-box .name {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.team-block .info-box .designation {
+    font-size: 25px;
+}
+
+
+.features-section .features-list li {
+    margin-bottom: 50px;
+}
+
+.features-section .image-column .image:before {
+    background-image: none;
+    background-color: #fff;
 }
