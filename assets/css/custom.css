@@ -117,3 +117,29 @@ p, .text,
     background-image: none;
     background-color: #fff;
 }
+
+
+
+/* ///// Galeria */
+
+.services__.bxslider {}
+
+.services__.bxslider .image-box a {
+    display: block;
+}
+.services__.bxslider .image-box a img {
+    width: 100%;
+}
+
+.services__.bxslider .slider-pager .thumb-box {
+    display: flex;
+}
+.services__.bxslider .slider-pager .thumb-box li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+}
